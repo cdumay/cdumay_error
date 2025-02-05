@@ -19,3 +19,6 @@ more readable and maintainable error definitions.
 * **Macros**: Automatically generate implementations for custom error types.
 * **Integration with cdumay_error**: Designed to work cohesively with the `cdumay_error` crate, ensuring consistent error handling patterns.
 
+## Usage
+
+See [cdumay_error](https://docs.rs/cdumay_error) documentation for more information.
