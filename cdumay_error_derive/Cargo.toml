@@ -1,6 +1,6 @@
 [package]
 name = "cdumay_error_derive"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 
 authors = ["Cédric Dumay <cedric.dumay@gmail.com>"]
