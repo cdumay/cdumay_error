@@ -33,5 +33,4 @@ jobs:
           cargo release tag --execute --no-confirm
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git  --follow-tags
           cargo login ${{ secrets.CARGO_REGISTRY_TOKEN }}
-          cargo publish --token ${{ secrets.CARGO_REGISTRY_TOKEN }} --package cdumay_error_derive
-          cargo publish --token ${{ secrets.CARGO_REGISTRY_TOKEN }} --package cdumay_error
+          cargo publish --token ${{ secrets.CARGO_REGISTRY_TOKEN }}

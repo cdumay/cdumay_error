@@ -1,13 +1,16 @@
-[workspace]
-members = [
-    "cdumay_error",
-    "cdumay_error_derive",
-]
-resolver = "2"
+[package]
+name = "cdumay_error"
+version = "2.0.0"
 
-[patch.crates-io]
-cdumay_error = { path = "cdumay_error" }
+authors = ["Cédric Dumay <cedric.dumay@gmail.com>"]
+description = "A Rust Library which define standard errors"
+documentation = "https://docs.rs/cdumay_error"
+edition = "2024"
+homepage = "https://github.com/cdumay/cdumay_error"
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/cdumay/cdumay_error"
 
-[workspace.dependencies]
-quote = { version = "1.0", default-features = false }
-syn = { version = "2.0", default-features = false }
+[dependencies]
+cdumay_core = "0.1"
+serde-value = "0.7"
